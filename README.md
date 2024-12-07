@@ -1,6 +1,6 @@
 # base-python-poetry
 
-A Python 3.11 (Debian) Docker image with poetry
+A Python (Debian) Docker image with poetry. The tag corresponds to the python version
 
 List of installed packages:
 
