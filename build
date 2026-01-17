@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+# Made by Sinfallas <sinfallas@yahoo.com>
+# Licence: GPL-2
+
+if [[ "$EUID" = "0" ]]; then
+	echo -e "\e[00;31mERROR: NO debe ser root.\e[00m"
+	exit 1
+fi
+
+clear
+docker buildx create --name container-builder --driver docker-container --bootstrap --use
+docker buildx build --platform linux/arm64,linux/amd64 --push -t sinfallas/base-python-poetry:3.10 --builder=container-builder -f Dockerfile-3.10 .
+docker buildx build --platform linux/arm64,linux/amd64 --push -t sinfallas/base-python-poetry:3.11 --builder=container-builder -f Dockerfile-3.11 .
+docker buildx build --platform linux/arm64,linux/amd64 --push -t sinfallas/base-python-poetry:3.12 --builder=container-builder -f Dockerfile-3.12 .
+docker buildx build --platform linux/arm64,linux/amd64 --push -t sinfallas/base-python-poetry:3.13 --builder=container-builder -f Dockerfile-3.13 .
+docker buildx build --platform linux/arm64,linux/amd64 --push -t sinfallas/base-python-poetry:3.14 --builder=container-builder -f Dockerfile-3.14 .
+docker buildx build --platform linux/arm64,linux/amd64 --push -t sinfallas/base-python-poetry:latest --builder=container-builder -f Dockerfile-3.14 .
+docker buildx rm container-builder
+docker system prune -af
+
+echo "finalizado..."
+exit 0
