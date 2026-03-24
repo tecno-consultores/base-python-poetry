@@ -1,83 +1,95 @@
-commit 2f8fd56b49b0cfba01b0de60dce863a89be6d929 (HEAD -> main, origin/main)
-Author: Jesus Palencia <sinfallas@gmail.com>
-Date:   Sat Jan 17 10:36:44 2026 -0400
-
-    * build script
-
-commit e5ee1e6970ea2017574974444f045904bf131f5a
-Author: Jesus Palencia <sinfallas@gmail.com>
-Date:   Sun Oct 12 07:44:42 2025 -0400
-
-    * changelog
-
-commit 81476a81ddea83e336019b741de0e78fe49b0118
-Author: Jesus Palencia <sinfallas@gmail.com>
-Date:   Sun Oct 12 07:44:36 2025 -0400
-
-    * update
-
-commit c613b7857f17a4c9d3fcfa2ccace246566d7e0a3 (tag: v1.1)
-Author: Jesus Palencia <sinfallas@gmail.com>
-Date:   Sat Dec 7 18:09:19 2024 -0400
-
-    * changelog
-
-commit 1cadd7cda9a236db0da4440d9a0c565d580e68e1
-Author: Jesus Palencia <sinfallas@gmail.com>
-Date:   Sat Dec 7 18:09:09 2024 -0400
-
-    * versiones update
-
-commit ea5bb10ce6ac3caca8c2887239950310fa6903b8
-Author: Jesus Palencia <sinfallas@gmail.com>
-Date:   Sat Dec 7 18:00:28 2024 -0400
-
-    * changelog
-
-commit 236ce8586a5ebc93b20a944c64c37b46e9a23bd1
-Author: Jesus Palencia <sinfallas@gmail.com>
-Date:   Sat Dec 7 18:00:20 2024 -0400
-
-    * versiones
-
-commit d5299b8e5921c5e8e606408d373d5e73233914f4 (tag: v1.0)
-Author: Jesus Palencia <sinfallas@gmail.com>
-Date:   Sat Nov 23 23:24:22 2024 -0400
-
-    * changelog
-
-commit 332d28a365b5c00fd35e849535b39f6692d1c55c
-Author: Jesus Palencia <sinfallas@gmail.com>
-Date:   Sat Nov 23 23:24:13 2024 -0400
-
-    * update
-
-commit 7f2f32af05a3b82f4975ee36fc34d8e089ad3ebf
-Author: Jesús Palencia <sinfallas@gmail.com>
-Date:   Sat Nov 23 15:59:36 2024 -0400
-
-    Update README.md
-
-commit 31f7e86df7f96f3e07ec4b94781e79cb70f90c99
-Author: Jesus Palencia <sinfallas@gmail.com>
-Date:   Sat Nov 23 15:57:05 2024 -0400
-
-    * changelog
-
-commit 7ae8579fa81c6613f289bd2a16cbea43af98ce8f
-Author: Jesus Palencia <sinfallas@gmail.com>
-Date:   Sat Nov 23 15:56:59 2024 -0400
-
-    * readme
-
-commit 7bcbeb5aca92a72aa0fccbdfb346bcc2404be050
-Author: Jesus Palencia <sinfallas@gmail.com>
-Date:   Sat Nov 23 15:51:32 2024 -0400
-
-    * changelog
-
-commit f051b6ea1ad2dee801469970f05d54f721b6126e
-Author: Jesus Palencia <sinfallas@gmail.com>
-Date:   Sat Nov 23 15:51:24 2024 -0400
-
-    * primer commit
+* commit 224ae4481c2f5f88b3c96bb44d66c94451f58347 (HEAD -> main, origin/main)
+| Author: Jesus Palencia <sinfallas@gmail.com>
+| Date:   Tue Mar 24 17:49:59 2026 -0400
+| 
+|     * update
+| 
+* commit 7403a7246b93b815580a3306f09a23bcc0a79686
+| Author: Jesus Palencia <sinfallas@gmail.com>
+| Date:   Sat Jan 17 10:36:53 2026 -0400
+| 
+|     * changelog
+| 
+* commit 2f8fd56b49b0cfba01b0de60dce863a89be6d929
+| Author: Jesus Palencia <sinfallas@gmail.com>
+| Date:   Sat Jan 17 10:36:44 2026 -0400
+| 
+|     * build script
+| 
+* commit e5ee1e6970ea2017574974444f045904bf131f5a
+| Author: Jesus Palencia <sinfallas@gmail.com>
+| Date:   Sun Oct 12 07:44:42 2025 -0400
+| 
+|     * changelog
+| 
+* commit 81476a81ddea83e336019b741de0e78fe49b0118
+| Author: Jesus Palencia <sinfallas@gmail.com>
+| Date:   Sun Oct 12 07:44:36 2025 -0400
+| 
+|     * update
+| 
+* commit c613b7857f17a4c9d3fcfa2ccace246566d7e0a3 (tag: v1.1)
+| Author: Jesus Palencia <sinfallas@gmail.com>
+| Date:   Sat Dec 7 18:09:19 2024 -0400
+| 
+|     * changelog
+| 
+* commit 1cadd7cda9a236db0da4440d9a0c565d580e68e1
+| Author: Jesus Palencia <sinfallas@gmail.com>
+| Date:   Sat Dec 7 18:09:09 2024 -0400
+| 
+|     * versiones update
+| 
+* commit ea5bb10ce6ac3caca8c2887239950310fa6903b8
+| Author: Jesus Palencia <sinfallas@gmail.com>
+| Date:   Sat Dec 7 18:00:28 2024 -0400
+| 
+|     * changelog
+| 
+* commit 236ce8586a5ebc93b20a944c64c37b46e9a23bd1
+| Author: Jesus Palencia <sinfallas@gmail.com>
+| Date:   Sat Dec 7 18:00:20 2024 -0400
+| 
+|     * versiones
+| 
+* commit d5299b8e5921c5e8e606408d373d5e73233914f4 (tag: v1.0)
+| Author: Jesus Palencia <sinfallas@gmail.com>
+| Date:   Sat Nov 23 23:24:22 2024 -0400
+| 
+|     * changelog
+| 
+* commit 332d28a365b5c00fd35e849535b39f6692d1c55c
+| Author: Jesus Palencia <sinfallas@gmail.com>
+| Date:   Sat Nov 23 23:24:13 2024 -0400
+| 
+|     * update
+| 
+* commit 7f2f32af05a3b82f4975ee36fc34d8e089ad3ebf
+| Author: Jesús Palencia <sinfallas@gmail.com>
+| Date:   Sat Nov 23 15:59:36 2024 -0400
+| 
+|     Update README.md
+| 
+* commit 31f7e86df7f96f3e07ec4b94781e79cb70f90c99
+| Author: Jesus Palencia <sinfallas@gmail.com>
+| Date:   Sat Nov 23 15:57:05 2024 -0400
+| 
+|     * changelog
+| 
+* commit 7ae8579fa81c6613f289bd2a16cbea43af98ce8f
+| Author: Jesus Palencia <sinfallas@gmail.com>
+| Date:   Sat Nov 23 15:56:59 2024 -0400
+| 
+|     * readme
+| 
+* commit 7bcbeb5aca92a72aa0fccbdfb346bcc2404be050
+| Author: Jesus Palencia <sinfallas@gmail.com>
+| Date:   Sat Nov 23 15:51:32 2024 -0400
+| 
+|     * changelog
+| 
+* commit f051b6ea1ad2dee801469970f05d54f721b6126e
+  Author: Jesus Palencia <sinfallas@gmail.com>
+  Date:   Sat Nov 23 15:51:24 2024 -0400
+  
+      * primer commit
