@@ -18,7 +18,8 @@ docker buildx build --platform linux/arm64,linux/amd64 --build-arg BUILD_DATE=$C
 docker buildx build --platform linux/arm64,linux/amd64 --build-arg BUILD_DATE=$CURRENT_DATE --push -t sinfallas/base-python-poetry:3.12 --builder=container-builder -f Dockerfile-3.12 .
 docker buildx build --platform linux/arm64,linux/amd64 --build-arg BUILD_DATE=$CURRENT_DATE --push -t sinfallas/base-python-poetry:3.13 --builder=container-builder -f Dockerfile-3.13 .
 docker buildx build --platform linux/arm64,linux/amd64 --build-arg BUILD_DATE=$CURRENT_DATE --push -t sinfallas/base-python-poetry:3.14 --builder=container-builder -f Dockerfile-3.14 .
-docker buildx build --platform linux/arm64,linux/amd64 --build-arg BUILD_DATE=$CURRENT_DATE --push -t sinfallas/base-python-poetry:latest --builder=container-builder -f Dockerfile-3.14 .
+docker buildx build --platform linux/arm64,linux/amd64 --build-arg BUILD_DATE=$CURRENT_DATE --push -t sinfallas/base-python-poetry:3.15 --builder=container-builder -f Dockerfile-3.15 .
+docker buildx build --platform linux/arm64,linux/amd64 --build-arg BUILD_DATE=$CURRENT_DATE --push -t sinfallas/base-python-poetry:latest --builder=container-builder -f Dockerfile-3.15 .
 docker buildx rm container-builder
 docker system prune -af
 docker builder prune -af
