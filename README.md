@@ -29,3 +29,6 @@ List of installed packages:
 Get this image on:
 
 * https://hub.docker.com/repository/docker/sinfallas/base-python-poetry/general
+
+
+Copyright (C) 2026 Jesus Palencia <sinfallas@gmail.com> (Creado en Tecno Consultores)
