@@ -11,7 +11,6 @@ clear
 CURRENT_DATE=$(date -u +'%Y-%m-%dT%H:%M:%SZ')
 
 docker run --privileged --rm tonistiigi/binfmt --install all
-docker buildx rm container-builder
 docker buildx create --name container-builder --driver docker-container --bootstrap --use
 docker buildx build --platform linux/arm64,linux/amd64 --build-arg BUILD_DATE=$CURRENT_DATE --push -t sinfallas/base-python-poetry:3.11 --builder=container-builder -f Dockerfile-3.11 .
 docker buildx build --platform linux/arm64,linux/amd64 --build-arg BUILD_DATE=$CURRENT_DATE --push -t sinfallas/base-python-poetry:3.12 --builder=container-builder -f Dockerfile-3.12 .
@@ -19,10 +18,6 @@ docker buildx build --platform linux/arm64,linux/amd64 --build-arg BUILD_DATE=$C
 docker buildx build --platform linux/arm64,linux/amd64 --build-arg BUILD_DATE=$CURRENT_DATE --push -t sinfallas/base-python-poetry:3.14 --builder=container-builder -f Dockerfile-3.14 .
 docker buildx build --platform linux/arm64,linux/amd64 --build-arg BUILD_DATE=$CURRENT_DATE --push -t sinfallas/base-python-poetry:3.15 --builder=container-builder -f Dockerfile-3.15 .
 docker buildx build --platform linux/arm64,linux/amd64 --build-arg BUILD_DATE=$CURRENT_DATE --push -t sinfallas/base-python-poetry:latest --builder=container-builder -f Dockerfile-3.15 .
-docker buildx rm container-builder
-docker system prune -af
-docker builder prune -af
-docker buildx prune -af
 
 echo "finalizado..."
 exit 0
