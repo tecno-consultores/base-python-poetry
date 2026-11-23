@@ -1,5 +1,7 @@
 # base-python-poetry
 
+[![Descargas de Docker](https://img.shields.io/docker/pulls/sinfallas/base-python-poetry?style=flat&logo=docker&color=blue)](https://hub.docker.com/r/sinfallas/base-python-poetry)
+ 
 A Python (Debian) Docker image with poetry. The tag corresponds to the python version
 
 List of installed packages:
